@@ -14,16 +14,26 @@
 </head>
 
 <body>
-	<div id="gameButtons"></div>
-	<form id="sumbitNewGifRequest">
-		<label for="NewGifInput">Add a new item:</label>
-		<input type="text" id="NewGifRequest">
+	<div class="container">
+		<div class="row px-2">
+			<form id="sumbitNewGifRequest">
+				<label for="NewGifLabel">Add a new item:</label>
+				<input type="text" id="NewGifRequest">
 
-		<input id="addNewGifRequest" type="submit" value="submit">
-	</form>
-
-	<div id="gifsHolder"></div>
-
+				<input class="btn btn-dark" id="addNewGifRequest" type="button" value="Submit">
+			</form>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div id="gameButtons"></div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div id="gifsHolder"></div>
+		</div>
+	</div>
 	<script type="text/javascript" src="assets/js/app.js"></script>
 </body>
 
